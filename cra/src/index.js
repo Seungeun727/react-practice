@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
+import App from './App.context';
 import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.render(
@@ -11,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 //   document.getElementById('root')
 // );
 import { BrowserRouter } from 'react-router-dom';
-import App from './App.routing';
+//import App from './App.routing';
 
 ReactDOM.render(
   <BrowserRouter>
